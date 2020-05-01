@@ -1,0 +1,5 @@
+静态代理：注意代理的对象有原对象的一个实例
+
+动态代理：继承InvocationHandler接口，重写invoke方法。Proxy
+
+Cglib 继承MethodInterceptor接口，重写intercept方法。
